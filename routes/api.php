@@ -3,8 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\AuthController;
-use App\Http\Controllers\Api\ContactUsController;
-use App\Http\Controllers\Api\FaqController;
+use App\Http\Controllers\API\ContactUsController;
+use App\Http\Controllers\API\FaqController;
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login',    [AuthController::class, 'login']);
